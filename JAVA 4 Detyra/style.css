@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 500px;
+    background-image: url("foto.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ll {
+    color: white;
+    font-size: 13px;
+}
+
+#lp {
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.headerbuttons {
+    padding-top: 15px;
+}
+
+#button1 {
+    background-color: mediumslateblue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 100px;
+}
+
+#button2 {
+    background-color: deeppink;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 100px;
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#divh1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.div1 img {
+    margin-bottom: 15px;
+}
+
+.div1 h2 {
+    margin-bottom: 15px;
+}
+
+.pr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("foto.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.div3 img {
+    margin-bottom: 15px;
+}
+
+.div3 h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.div3 p {
+    color: blue;
+}
+
+.z {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.x {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: lightgray;
+}
+
+.div4 img {
+    margin: 50px 0px;
+    margin-right: 100px;
+}
+
+.adc {
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+}
+
+.adp {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+#adl {
+    margin-top: 35px;
+}
+
+#adli {
+    color: gray;
+    font-size: 20px;
+}
+
+#adb {
+    background-color: mediumslateblue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 100px;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.div5 {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px;
+}
+
+.bdm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bdm img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bdm h2 {
+    color: blue;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.div5 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.div5 p {
+    color: blue;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 17px;
+}
+
+.bdm p {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.gc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.sc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.gj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.jb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    height: 27px;
+    width: 27px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-image: url('foto.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 80px 0px;
+    color:black;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 15px;
+}
+
+.fl {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.fs h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fsp {
+    text-align: center;
+}
+
+.im {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.imu {
+    margin-bottom: 70px;
+}
+
+.ir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iru {
+    margin-bottom: 70px;
+}
+
+.it {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.it h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
